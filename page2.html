@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="keywords" content="cmu donut dash" />
+    <meta name="author" content="Jeff Mich" />
+    <meta name="copyright" content="Jeff Mich 2013" />
+    <link rel='stylesheet' type='text/css' href='css/reset.css' />
+    <link rel='stylesheet' type='text/css' href='css/960.css' />
+        <link rel='stylesheet' type='text/css' href='css/stylesheet.css' />
+<!--     <link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+ -->
+    <link rel='stylesheet' type='text/css' href='css/style.css'/>
+</head>
+<body>
+    <div id='header'>
+        <div class='wrapper'>
+            <div id='logoDiv'>
+                <a href='index.html'>
+                    <img id='logoIcon' src='img/logoNoStroke.png'>
+                    <img id='tagLine' src='img/logo.png'>
+                </a>
+            </div>
+            <ul>
+                <li id='registerHeader' ><a href="/">Register</a></li>
+                <li id='donateHeader' class='focus'><a href="#">Donate</a></li>
+                <li><a href="/">Why Donuts?</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </div>
+    </div>  
+    <div id='donatePage' class='container'>
+        
+
+        <div class='sliderContainer'>
+            <section class='slides enlarged'>
+               <article class='slide' id='formDonateSlide'>
+                    <div class='container_16'>
+                        <div class='grid_15' id='overlay'>
+                            <form id='ccForm'>
+                                    <a href="">
+                                        <img id='backArrow' src="img/backArrow.png">
+                                    </a>
+                                <div class='container_16 prefix_4'>
+                                    <div class='grid_8'>
+                                        <p>I want to donate <span id='donateAmount' class='emphasis'>$25.00</span> by <span id='paymentType'>Credit Card</span>.</p>
+                                    </div>
+                                </div>
+                                <div class='container_16 prefix_1'>
+                                    <div class='grid_3 '>
+                                        <label>Card Number</label>
+                                    </div>
+                                    <div class='grid_10'>
+                                        <input type="text" size="20" name="ccNumberenc">
+                                    </div>
+                                </div>
+                                <div class='container_16 prefix_1'>
+                                    <div class='grid_3'>
+                                        <label>Expiration</label>
+                                    </div>
+                                    <div class='grid_4'>
+                                        <select name="expMonthenc" id='expireMM'>
+                                            <option value='01'>01</option>
+                                            <option value='02'>02</option>
+                                            <option value='03'>03</option>
+                                            <option value='04'>04</option>
+                                            <option value='05'>05</option>
+                                            <option value='06'>06</option>
+                                            <option value='07'>07</option>
+                                            <option value='08'>08</option>
+                                            <option value='09'>09</option>
+                                            <option value='10'>10</option>
+                                            <option value='11'>11</option>
+                                            <option value='12'>12</option>
+                                        </select> 
+                                        <select name="expYearenc" id='expireYY'>
+                                            <option value='10'>2010</option>
+                                            <option value='11'>2011</option>
+                                            <option value='12'>2012</option>
+                                        </select>
+                                    </div>
+                                    <div class='grid_1'>
+                                        <label>CCV</label>
+                                    </div>
+                                    <div class='grid_8'>
+                                        <input type="text" size="4" name="cvvenc" maxlength="4" style='width:100px'>
+                                    </div>
+                                </div>
+                                <div class='container_16 prefix_1'>
+                                    <div class='grid_3'>
+                                        <label>Name</label>
+                                    </div>
+                                    <div class='grid_12'>
+                                        <input type="text" size="10" name="firstName" id='firstName'value="" placeholder='first'>
+                                        <input type="text" size="10" name="lastName" id='lastName'value="" placeholder='last'>
+                                    </div>
+                                </div>
+                                <div class='container_16 prefix_1'>
+                                    <div class='grid_3'>
+                                        <label>E-mail</label>
+                                    </div>
+                                    <div class='grid_12'>
+                                        <input type="text" size="10" name="email" value="">
+                                    </div>
+                                </div>
+                                <div class='container_16 prefix_1'>
+                                    <div class='grid_3'>
+                                        <label>Billing Address</label>
+                                    </div>
+                                    <div class='grid_12'>
+                                        <input type="text" size="16" name="billingAddress" maxlength="50">
+                                    </div>
+                                </div>
+                                <div class='container_16 prefix_1'>
+                                    <div class='grid_3'>
+                                        <label>City</label>
+                                    </div>
+                                    <div class='grid_12'>
+                                        <input type="text" size="16" name="city" maxlength="50">
+                                    </div>
+                                </div>
+                                <div class='container_16 prefix_1'>
+                                    <div class='grid_3'>
+                                        <label>State</label>
+                                    </div>
+                                    <div class='grid_12'>
+                                        <select name="State" id='State'>
+                                            <option value="" selected="selected">Select State</option> 
+                                            <option value="AL">Alabama</option> 
+                                            <option value="AK">Alaska</option> 
+                                            <option value="AZ">Arizona</option> 
+                                            <option value="AR">Arkansas</option> 
+                                            <option value="CA">California</option> 
+                                            <option value="CO">Colorado</option> 
+                                            <option value="CT">Connecticut</option> 
+                                            <option value="DE">Delaware</option> 
+                                            <option value="DC">District Of Columbia</option> 
+                                            <option value="FL">Florida</option> 
+                                            <option value="GA">Georgia</option> 
+                                            <option value="HI">Hawaii</option> 
+                                            <option value="ID">Idaho</option> 
+                                            <option value="IL">Illinois</option> 
+                                            <option value="IN">Indiana</option> 
+                                            <option value="IA">Iowa</option> 
+                                            <option value="KS">Kansas</option> 
+                                            <option value="KY">Kentucky</option> 
+                                            <option value="LA">Louisiana</option> 
+                                            <option value="ME">Maine</option> 
+                                            <option value="MD">Maryland</option> 
+                                            <option value="MA">Massachusetts</option> 
+                                            <option value="MI">Michigan</option> 
+                                            <option value="MN">Minnesota</option> 
+                                            <option value="MS">Mississippi</option> 
+                                            <option value="MO">Missouri</option> 
+                                            <option value="MT">Montana</option> 
+                                            <option value="NE">Nebraska</option> 
+                                            <option value="NV">Nevada</option> 
+                                            <option value="NH">New Hampshire</option> 
+                                            <option value="NJ">New Jersey</option> 
+                                            <option value="NM">New Mexico</option> 
+                                            <option value="NY">New York</option> 
+                                            <option value="NC">North Carolina</option> 
+                                            <option value="ND">North Dakota</option> 
+                                            <option value="OH">Ohio</option> 
+                                            <option value="OK">Oklahoma</option> 
+                                            <option value="OR">Oregon</option> 
+                                            <option value="PA">Pennsylvania</option> 
+                                            <option value="RI">Rhode Island</option> 
+                                            <option value="SC">South Carolina</option> 
+                                            <option value="SD">South Dakota</option> 
+                                            <option value="TN">Tennessee</option> 
+                                            <option value="TX">Texas</option> 
+                                            <option value="UT">Utah</option> 
+                                            <option value="VT">Vermont</option> 
+                                            <option value="VA">Virginia</option> 
+                                            <option value="WA">Washington</option> 
+                                            <option value="WV">West Virginia</option> 
+                                            <option value="WI">Wisconsin</option> 
+                                            <option value="WY">Wyoming</option>
+                                        </select>
+                                        <input type="text" size="16" name="zipCode" id='zipCode' maxlength="10" placeholder="Zip Code">
+                                    </div>
+                                </div>
+                                <div class='container_16 prefix_4'>
+                                    <div class='grid_16'>
+                                        <button type="button" id="submitDonation">Donate<span id='donationReason' > because I love donuts.</span></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+    </div>
+    <script src='js/jqueryMinified.js'></script>
+    <script src='js/donate.js'></script>
+
+</body>
+</html>
